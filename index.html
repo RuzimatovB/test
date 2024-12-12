@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>私の留学先</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: beige;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background: rgba(255, 255, 255, 0.8);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        header img {
+            width: 100px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        nav {
+            margin-left: auto;
+            font-size: larger;
+            font-weight: bolder;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background: none;
+            color: brown;
+        }
+
+        section img {
+            width: 60%;
+            height: auto;
+            filter: none;
+            margin-top: 110px;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/japanese_flag.jpg" alt="日本の旗">
+        <h1>私の留学先</h1>
+        <nav>
+            <a href="#home">ホーム</a>
+            <a href="#university">大学</a>
+            <a href="#beppu">別府市</a>
+            <a href="#japan">日本</a>
+        </nav>
+    </header>
+
+    <section id="home" class="parent">
+        <div class="child">
+            <img src="images/立命館アジア太平洋大学.jpg" alt="立命館アジア太平洋大学">
+        </div>
+        <div class="child">
+            <ul>
+                <li>約25ヶ国出身の人が集まった多文化環境</li>
+                <li>国際的なプロジェクトに参加可能</li>
+                <li>多国語言語が学べる機会</li>
+                <li>様々な部活動</li>
+                <li>キャンパスが山の上</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="university">
+        
+        <div>
+            <img src="images/university_1.jpg" alt="大学写真1">
+        </div>
+        <div>
+            <ul>
+                <li>サッカーワールドカップ</li>
+                <li>卓球 (Table Tennis)</li>
+                <li>日本語能力試験N1級 取得</li>
+                <li>国際ビジネスケースコンペティション</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="beppu">
+        <img src="images/beppu.jpg" alt="別府市">
+        
+    </section>
+
+    <section id="japan">
+        <p>日本には豊かな伝統文化があります。茶道、華道、そして美しい祭りが世界中で注目されています。</p>
+        <img src="images/japan.jpg" alt="文化">
+    </section>
+</body>
+</html>
